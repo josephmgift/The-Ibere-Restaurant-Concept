@@ -1,9 +1,22 @@
 :root {
     --default-grey: #272727;
-    --blue-green: #00FFC2;
+    --blue-green: #ff2600;
 }
 body {
     background-color: var(--default-grey);
     margin: 0;
     font-family: 'Hina Mincho', serif;
+    text-align: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-size: 40pt;
+    color: var(--blue-green);
+}
+img {
+    width: 10%;
 }
