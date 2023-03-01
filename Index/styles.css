@@ -1,10 +1,13 @@
 :root {
     --default-grey: #272727;
+    --green: #0DAF4E;
+    --light-grey: #545454;
 }
 body {
     background-color: var(--default-grey);
     margin: 0;
     font-family: 'Hina Mincho', serif;
+    font-size: 15pt;
 }
 a {
     text-decoration: none;
@@ -39,6 +42,68 @@ nav {
     margin-right: 40px;
     color: white;
 }
+.theme {
+    height: 50vh;
+    display: flex;
+    margin: 3%;
+}
+.div-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40pt;
+}
+.div-2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-2 img {
+    width: 75%;
+    border-radius: 15px;
+}
+.below-theme {
+    height: 20vh;
+}
+
+
+.location {
+    text-align: center;
+    background-color: var(--green);
+    font-size: 35pt;
+}
+.location img {
+    width: 25%;
+}
+.dishes {
+    text-align: center;
+    background-color: var(--light-grey);
+    font-size: 35pt;
+}
+.dishes img {
+    width: 10%;
+}
+.dishes a {
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    border: solid white 1.5px;
+    border-radius: 10px;
+}
+footer {
+    text-align: center;
+    font-size: 15px;
+}
+footer a {
+    color: white;
+}
+.copyright {
+    color: #00FFC2;
+    font-size: 20px;
+}
+
 
 @media screen and (max-width: 767px) {
     nav {

@@ -1,11 +1,9 @@
 :root {
     --default-grey: #272727;
+    --blue-green: #00FFC2;
 }
 body {
     background-color: var(--default-grey);
     margin: 0;
     font-family: 'Hina Mincho', serif;
-}
-a {
-    text-decoration: none;
 }
