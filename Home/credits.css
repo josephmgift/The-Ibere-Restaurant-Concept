@@ -1,0 +1,11 @@
+:root {
+    --default-grey: #272727;
+}
+body {
+    background-color: var(--default-grey);
+    margin: 0;
+    font-family: 'Hina Mincho', serif;
+}
+a {
+    text-decoration: none;
+}
