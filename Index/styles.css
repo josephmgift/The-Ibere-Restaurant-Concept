@@ -77,6 +77,7 @@ nav {
 .location img {
     width: 25%;
 }
+
 .dishes {
     text-align: center;
     background-color: var(--light-grey);
@@ -84,7 +85,7 @@ nav {
     color: white;
 }
 .dishes img {
-    width: 250px;
+    width: 180px;
     border-radius: 10px;
 }
 .dishes a {
@@ -105,11 +106,21 @@ footer a {
     color: #00FFC2;
     font-size: 20px;
 }
-
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .location img {
+        width: 40%;
+    }
+}
 
 @media screen and (max-width: 767px) {
-    nav {
+    .theme {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+    .nav-1 img {
+        width: 100%;
+    }
+    .location img {
+        width: 70%;
     }
 }
